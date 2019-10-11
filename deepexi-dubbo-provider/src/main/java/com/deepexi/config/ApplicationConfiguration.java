@@ -1,24 +1,13 @@
 package com.deepexi.config;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.beans.factory.InitializingBean;
-import com.deepexi.util.ConverterUtils;
-import org.springframework.core.convert.ConversionService;
+
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class ApplicationConfiguration implements InitializingBean {
+public class ApplicationConfiguration {
     
-    @Autowired
-    private ConversionService conversionService;
-
-    @Override
-    public void afterPropertiesSet() {
-        ConverterUtils.setConversionService(conversionService);
-    }
-            
     
     @Bean
     public ApplicationMetaObjectHandler.RuntimeData runtimeData() {

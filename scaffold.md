@@ -12,13 +12,13 @@
 
 **yeoman版本**: v2.0.6
 
-**生成时间**: 2019-10-11 11:51:40
+**生成时间**: 2019-10-11 11:54:14
 
 **生成方式**: 命令模式
 
-**生成参数**: {"groupId":"com.deepexi","artifactId":"deepexi-dubbo","basePackage":"com.deepexi","mavenUrl":"","discovery":"nacos","converter":"spring-converter","db":"mysql","dbPool":"druid","orm":"mybatis-plus","circuit":"hystrix","mq":"rabbitmq","webServer":"undertow","demo":true,"mode":"command","cli":"yo generator-deepexi-dubbo -c --groupId=com.deepexi --artifactId=deepexi-dubbo --basePackage= --mavenUrl= --discovery=nacos --converter=spring-converter --db=mysql --dbPool=druid --orm=mybatis-plus --circuit=hystrix --mq=rabbitmq --webServer=undertow --demo=true","version":"1.3.0","conditions":{"mybatis-plus":true,"crud":true,"rabbitmq":true,"spring-converter":true,"has-circuit":true,"has-converter":true},"basePath":"com/deepexi","basic":true}
+**生成参数**: {"groupId":"com.deepexi","artifactId":"deepexi-dubbo","basePackage":"com.deepexi","mavenUrl":"","discovery":"nacos","converter":"none","db":"mysql","dbPool":"druid","orm":"mybatis-plus","circuit":"hystrix","mq":"rabbitmq","webServer":"undertow","demo":true,"mode":"command","cli":"yo generator-deepexi-dubbo -c --groupId=com.deepexi --artifactId=deepexi-dubbo --basePackage= --mavenUrl= --discovery=nacos --converter=none --db=mysql --dbPool=druid --orm=mybatis-plus --circuit=hystrix --mq=rabbitmq --webServer=undertow --demo=true","version":"1.3.0","conditions":{"mybatis-plus":true,"crud":true,"rabbitmq":true,"none":false,"has-circuit":true,"no-converter":true},"basePath":"com/deepexi","basic":true}
 
-**生成命令**: yo generator-deepexi-dubbo -c --groupId=com.deepexi --artifactId=deepexi-dubbo --basePackage= --mavenUrl= --discovery=nacos --converter=spring-converter --db=mysql --dbPool=druid --orm=mybatis-plus --circuit=hystrix --mq=rabbitmq --webServer=undertow --demo=true
+**生成命令**: yo generator-deepexi-dubbo -c --groupId=com.deepexi --artifactId=deepexi-dubbo --basePackage= --mavenUrl= --discovery=nacos --converter=none --db=mysql --dbPool=druid --orm=mybatis-plus --circuit=hystrix --mq=rabbitmq --webServer=undertow --demo=true
 
 ## 项目参考
 
